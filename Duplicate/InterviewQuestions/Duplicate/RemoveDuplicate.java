@@ -8,23 +8,19 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class RemoveDuplicate {
-    public static HashSet<Integer> printDuplicates(int[] arr) {
-        Arrays.sort(arr);
-        HashSet<Integer> set = new HashSet();
-        for (int i = 0; i < arr.length - 1; i++) {
-            if (arr[i] == arr[i + 1]) {
-                set.add(arr[i]);
-            }
-        }
-        return set;
-    }
+    // public static HashSet<Integer> printDuplicates(int[] arr) {
+    //     Arrays.sort(arr);
+    //     HashSet<Integer> set = new HashSet();
+    //     for (int i = 0; i < arr.length - 1; i++) {
+    //         if (arr[i] == arr[i + 1]) {
+    //             set.add(arr[i]);
+    //         }
+    //     }
+    //     return set;
+    // }
 
-    public static HashSet<Integer> removeDuplicates(int[] arr) {
+    public static HashSet<Integer> printDuplicates(int[] arr) {
         HashSet<Integer> set = new HashSet();
-        // for(int i : arr ){
-        // set.add(i);
-        // }
-        // return set;
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i : arr) {
             map.put(i, map.getOrDefault(i, 0) + 1);
@@ -54,7 +50,7 @@ public class RemoveDuplicate {
     public static void main(String[] args) {
         int arr[] = { 1, 4, 5, 2, 3, 4, 1, 3, 4, 1, 3, 3, 1, 4 };
         HashSet<Integer> set = new HashSet<>();
-        set = nonRepeating(arr);
+        set = printDuplicates(arr);
         System.out.println("all non repeating numbers : ");
         for (int i : set) {
             System.out.println(i);
