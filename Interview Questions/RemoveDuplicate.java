@@ -1,4 +1,5 @@
-// print all repeting and non repeating numbers, remove duplicate numbers
+// print all repeting and non repeating numbers, remove duplicate numbers'
+// count distinct/unique elements
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,6 +18,23 @@ public class RemoveDuplicate {
     //     }
     //     return set;
     // }
+
+    public static int countDistinctElement(int[] arr) {
+        int count = 0;    
+        for (int i = 0; i < arr.length; i++) {
+            boolean isDistinct = true;
+            for (int j = 0; j < i; j++) {
+                if (arr[i] == arr[j]) {
+                    isDistinct = false;
+                    break;
+                }
+            }
+            if (isDistinct) {
+                count++;
+            }
+        }
+        return count;
+    }
 
     public static HashSet<Integer> printDuplicates(int[] arr) {
         HashSet<Integer> set = new HashSet();

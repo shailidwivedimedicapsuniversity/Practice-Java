@@ -1,7 +1,6 @@
 // HashSet : no duplicate, unordered, null allowed
 // HashSet internally  implemented in form of  Hashmap
 // basic  operation : add, contains , remove, size , clear ,clone, isEmpty
-// Linked HashSet : ordered; insertion order will be maintained
 
 package HashSet;
 
