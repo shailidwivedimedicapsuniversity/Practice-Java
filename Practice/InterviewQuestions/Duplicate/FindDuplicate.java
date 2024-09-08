@@ -1,7 +1,7 @@
 // There is only one repeated number in array, return this repeated number.
 // is array contains duplicates , using hashmap 
 
-package Duplicate.InterviewQuestions.Duplicate;
+package Practice.InterviewQuestions.Duplicate;
 
 import java.util.Arrays;
 import java.util.HashMap;
