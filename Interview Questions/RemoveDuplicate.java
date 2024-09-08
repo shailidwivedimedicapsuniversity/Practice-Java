@@ -1,5 +1,4 @@
 // print all repeting and non repeating numbers, remove duplicate numbers
-package Practice.InterviewQuestions.Duplicate;
 
 import java.util.ArrayList;
 import java.util.Arrays;

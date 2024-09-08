@@ -38,6 +38,7 @@ public class Practice4 {
         System.out.println("Checking Valid Anagrams");
         String a = "race";
         String b = "care";
+        // TC = O(n)
         System.out.println(isAnagrams(a, b));
 
     }
