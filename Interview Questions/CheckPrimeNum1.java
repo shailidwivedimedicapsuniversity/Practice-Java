@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class CheckPrimeNum {
+public class CheckPrimeNum1 {
 
     public static boolean isPrimeNumber(int n) {
         // check if a number is prime or not

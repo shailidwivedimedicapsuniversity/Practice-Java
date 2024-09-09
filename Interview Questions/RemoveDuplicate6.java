@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
-public class RemoveDuplicate {
+public class RemoveDuplicate6 {
     // public static HashSet<Integer> printDuplicates(int[] arr) {
     //     Arrays.sort(arr);
     //     HashSet<Integer> set = new HashSet();

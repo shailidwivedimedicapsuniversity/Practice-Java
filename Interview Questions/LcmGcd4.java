@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class LcmGcd {
+public class LcmGcd4 {
     public static void findLcmAndGcd(int a, int b) {
         int c = a * b;
         while (a > 0 && b > 0) {

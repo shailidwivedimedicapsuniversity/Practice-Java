@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FindDuplicate {
+public class FindDuplicate3 {
     public static int findDuplicateNum(int[] nums) {
         // brute force O(n^2)
         // for (int i = 0; i < nums.length; i++) {

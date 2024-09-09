@@ -1,4 +1,4 @@
-public class LeapYear {
+public class LeapYear5 {
 
     public static boolean checkLeapYear(int year){
         if(year % 4 == 0){
