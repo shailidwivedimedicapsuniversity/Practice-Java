@@ -1,9 +1,45 @@
 //find max , min , largest , smallest , secondlargest,thirdlargest, kthlargest element
+// Maximum and minimum of an array using minimum number of comparisons
+
 package Arrays;
 
 import java.util.Arrays;
 
+class Pair<K, V> {
+    private final K key;
+    private final V value;
+
+    public Pair(K key, V value) {
+        this.key = key;
+        this.value = value;
+    }
+
+    public K getKey() {
+        return key;
+    }
+
+    public V getValue() {
+        return value;
+    }
+}
+
 public class MaxMin {
+
+    public static Pair<Long, Long> getMinMax(int[] arr) {
+        // Code Here for pair class
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+        for(int i=0; i<arr.length; i++){
+            if(arr[i]> max){
+                max = arr[i];
+            }
+            if(arr[i]<min){
+                min = arr[i];
+            }
+        }
+        Pair p = new Pair(min, max);
+        return p;
+    }
 
     public static int findLargest(int arr[]) {
         // max element
@@ -96,5 +132,6 @@ public class MaxMin {
         System.out.println("Minimum element in array : " + findMin(nums));
         findMaxMin(nums);
         System.out.println("second largest element is : "+ findSecondLargest(nums));
+
     }
 }
