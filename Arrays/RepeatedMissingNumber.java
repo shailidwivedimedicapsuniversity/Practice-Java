@@ -73,7 +73,7 @@ public class RepeatedMissingNumber {
 
     // DO NOT MODIFY THE LIST. IT IS READ ONLY
     public static ArrayList<Integer> repeatedNumberOptimise(final List<Integer> A) {
-        // TC = O(n) SC = O(1)
+        // TC = O(n) SC = O(1) ; did with Striver help 
         long n = A.size();
         // Step 1: Calculate the sum and sum of squares of first n natural numbers
         long sn = (n * (n + 1)) / 2;
@@ -93,7 +93,7 @@ public class RepeatedMissingNumber {
         // Step 4: Use the equations to solve for X and Y
         long val3 = val2 / val1; // (x-y)*(x+y)/ (x-y) ; x+y
         long x = (val3 + val1) / 2; // x-y = val1 , x+y = val3 added these
-        long y = x - val1;
+        long y = x - val1; // val1 = x-y
         ArrayList<Integer> ans = new ArrayList<>();
         ans.add((int) x);
         ans.add((int) y);
