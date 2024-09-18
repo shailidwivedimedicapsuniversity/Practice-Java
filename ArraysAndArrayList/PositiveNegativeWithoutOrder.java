@@ -1,7 +1,7 @@
 // Move All Negative Numbers To Beginning And Positive To End 
 // order not maintained
 
-package Arrays;
+package ArraysAndArrayList;
 
 import java.util.Arrays;
 

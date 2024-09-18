@@ -1,7 +1,7 @@
 //find max , min , largest , smallest , secondlargest,thirdlargest, kthlargest element
 // Maximum and minimum of an array using minimum number of comparisons
 
-package Arrays;
+package ArraysAndArrayList;
 
 import java.util.Arrays;
 

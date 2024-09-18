@@ -1,4 +1,4 @@
-package Arrays;
+package ArraysAndArrayList;
 
 public class ConsecutiveOneZero {
     // Maximum consecutive one’s (or zeros) in a binary array

@@ -1,5 +1,5 @@
 //  Array is sorted
-package Arrays;
+package ArraysAndArrayList;
 
 public class BinarySearch {
     // TC = O(logn)

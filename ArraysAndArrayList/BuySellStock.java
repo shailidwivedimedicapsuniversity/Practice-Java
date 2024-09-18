@@ -1,4 +1,4 @@
-package Arrays;
+package ArraysAndArrayList;
 
 public class BuySellStock {
 

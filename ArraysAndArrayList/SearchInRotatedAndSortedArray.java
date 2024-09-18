@@ -1,7 +1,7 @@
 // Search in rotated and sorted array
-package Arrays;
+package ArraysAndArrayList;
 
-import Arrays.LinearSearch;
+import ArraysAndArrayList.LinearSearch;
 
 public class SearchInRotatedAndSortedArray {
     public static int searchInRotatedSortedArray(int arr[], int target) {

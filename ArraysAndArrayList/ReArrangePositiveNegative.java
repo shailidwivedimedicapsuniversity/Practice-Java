@@ -1,10 +1,12 @@
-package Arrays;
+// Rearrange an unsorted array of positive and negative numbers such that they alternate, starting with a positive, while maintaining their relative order. If one type is exhausted, append the remaining elements as-is.
+package ArraysAndArrayList;
 
 import java.util.ArrayList;
 
 public class ReArrangePositiveNegative {
     public static void rearrange(ArrayList<Integer> arr) {
     // Separate positive and negative numbers
+    // TC = O(n) SC = O(n)
     int n = arr.size();
     ArrayList<Integer> positives = new ArrayList<>();
     ArrayList<Integer> negatives = new ArrayList<>();

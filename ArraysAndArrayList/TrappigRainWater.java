@@ -1,4 +1,4 @@
-package Arrays;
+package ArraysAndArrayList;
 
 public class TrappigRainWater {
     // Given n non-negative integers representing an elevation map where the

@@ -1,4 +1,4 @@
-package Arrays;
+package ArraysAndArrayList;
 // print all repeting and non repeating numbers, remove duplicate numbers'
 // count distinct/unique elements
 

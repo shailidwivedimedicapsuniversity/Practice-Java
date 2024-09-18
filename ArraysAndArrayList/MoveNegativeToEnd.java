@@ -1,6 +1,6 @@
 // Move all negative elements to end
 // order maintained
-package Arrays;
+package ArraysAndArrayList;
 
 public class MoveNegativeToEnd {
     public static void segregateElements(int arr[])
