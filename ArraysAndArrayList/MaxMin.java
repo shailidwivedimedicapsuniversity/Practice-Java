@@ -1,4 +1,4 @@
-//find max , min , largest , smallest , secondlargest,thirdlargest, kthlargest element
+//find max , min , largest , smallest , secondlargest,thirdlargest, kthlargest, kSmallest element
 // Maximum and minimum of an array using minimum number of comparisons
 
 package ArraysAndArrayList;
@@ -29,11 +29,11 @@ public class MaxMin {
         // Code Here for pair class
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
-        for(int i=0; i<arr.length; i++){
-            if(arr[i]> max){
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > max) {
                 max = arr[i];
             }
-            if(arr[i]<min){
+            if (arr[i] < min) {
                 min = arr[i];
             }
         }
@@ -120,18 +120,27 @@ public class MaxMin {
         return third;
     }
 
-
-    public static int findKthLargest(int[] nums, int k) {
-        Arrays.sort(nums); 
+    public static int kthLargest(int[] nums, int k) {
+        Arrays.sort(nums);
         // in place of this , we can write any sorting algorithm then sort the array
         return nums[nums.length - k];
     }
+
+    public static int kthSmallest(int[] arr, int k) {
+        // Your code here
+        Arrays.sort(arr);
+        return arr[k - 1];
+    }
+
     public static void main(String[] args) {
-        int[] nums = {2,4,5,9,7,8,10,-32};
-        System.out.println("Largest element in array : "+findLargest(nums));
+        int[] nums = { 2, 4, 5, 9, 7, 8, 10, -32 };
+        System.out.println("Largest element in array : " + findLargest(nums));
         System.out.println("Minimum element in array : " + findMin(nums));
         findMaxMin(nums);
-        System.out.println("second largest element is : "+ findSecondLargest(nums));
+        System.out.println("second largest element is : " + findSecondLargest(nums));
+        System.out.println(kthSmallest(nums, 4));
+        System.out.println(kthLargest(nums, 2));
+
 
     }
 }

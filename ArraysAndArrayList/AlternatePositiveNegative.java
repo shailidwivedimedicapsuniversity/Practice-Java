@@ -3,7 +3,7 @@ package ArraysAndArrayList;
 
 import java.util.ArrayList;
 
-public class ReArrangePositiveNegative {
+public class AlternatePositiveNegative {
     public static void rearrange(ArrayList<Integer> arr) {
     // Separate positive and negative numbers
     // TC = O(n) SC = O(n)
