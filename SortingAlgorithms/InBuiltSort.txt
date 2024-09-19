@@ -1,0 +1,6 @@
+1. Arrays.sort(arr) : sort in assc order
+2. Arrays.sort(arr, si, ei); : sort subarrays
+* Collections.reverseOrder() will not work for premetive data types. like int, char etc.  
+3. Arrays.sort(arr, collections.reverseOrder()) : sort in desc order
+4. Arrays.sort(arr, si, ei, collections.reverseOrder()) : sort subarrays in desc order
+* We also have Counting sort and Heap sort.
