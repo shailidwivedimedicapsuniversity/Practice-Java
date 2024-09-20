@@ -3,7 +3,7 @@ package ArraysAndArrayList;
 
 import ArraysAndArrayList.LinearSearch;
 
-public class SearchInRotatedAndSortedArray {
+public class RotatedAndSortedArraySearch {
     public static int searchInRotatedSortedArray(int arr[], int target) {
         // Binary Search Optimise Approach TC = O(logn)
         int si = 0;
