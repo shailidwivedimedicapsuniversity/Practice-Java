@@ -1,3 +1,4 @@
+//Quick sort is a divide and conquer algorithm in which we choose a pivot point and partition the array into two parts i.e, left and right. The left part contains the numbers smaller than the pivot element and the right part contains the numbers larger than the pivot element. Then we recursively sort the left and right parts of the array.
 // TC =O(n^2)worst when pivot is always the smallest or largest ele in the array
 // TC= O(nlogn) avg , SC = O(1)
 package SortingAlgorithms;
