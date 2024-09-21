@@ -24,19 +24,23 @@ public class ValidPalindrome {
         // TC = O(n) SC=O(n)
 
         s = s.toLowerCase();
-        //using regex expression
+        // using regex expression
         // for creating new string SC=O(n)
         s = s.replaceAll("[^a-zA-Z0-9]", "");
-        for(int i=0; i<s.length()/2; i++){
-            if(s.charAt(i)!= s.charAt(s.length()-1-i)){
+        for (int i = 0; i < s.length() / 2; i++) {
+            if (s.charAt(i) != s.charAt(s.length() - 1 - i)) {
                 return false;
             }
         }
         return true;
-       
+
     }
 
     public static boolean isPalindrome2(String s) {
+        // after converting all uppercase letters into lowercase letters and removing
+        // all non-alphanumeric characters, it reads the
+        // same forward and backward. Alphanumeric characters include letters and
+        // numbers.
         // TC = O(N) SC= O(1)
         s = s.toLowerCase();
         int start = 0;

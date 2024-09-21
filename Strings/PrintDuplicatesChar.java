@@ -4,7 +4,7 @@ package Strings;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class PrintDuplicates {
+public class PrintDuplicatesChar {
     public static void allDuplicatesCharacter(String str) {
         // TC = n SC=n
         HashMap<Character, Integer> map = new HashMap<>();

@@ -1,6 +1,6 @@
 1.What is a Stack? 
 A stack is a linear data structure that follows the Last In First Out (LIFO) principle,
- means the last element added into stack, will be removed First.
+means the last element added into stack, will be removed First.
 
 2. main operations: 
 1.push (to add an item in top of the stack) 
@@ -8,4 +8,6 @@ A stack is a linear data structure that follows the Last In First Out (LIFO) pri
 3.peek(see the top value of the stack). 
  
 3. Uses ?
-  Stacks are used in various applications, like function call management(recursion)
+Stacks are used in various applications, like function call management(recursion)
+
+Stack<Character> s = new Stack();

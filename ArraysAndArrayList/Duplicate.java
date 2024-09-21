@@ -1,8 +1,10 @@
 package ArraysAndArrayList;
+import java.util.ArrayList;
 // print all repeting and non repeating numbers, remove duplicate numbers'
 // count distinct/unique elements
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 
 public class Duplicate {
     // public static HashSet<Integer> printDuplicates(int[] arr) {
@@ -33,18 +35,17 @@ public class Duplicate {
         return count;
     }
 
-    public static HashSet<Integer> printDuplicates(int[] arr) {
-        HashSet<Integer> set = new HashSet();
+    public static void printDuplicates(int[] arr) {
+        List<Integer> list = new ArrayList();
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i : arr) {
             map.put(i, map.getOrDefault(i, 0) + 1);
         }
         for (int key : map.keySet()) {
             if (map.get(key) > 1) { // map.get(key) will return value
-                set.add(key);
+                System.out.println(key +" count : "+ map.get(key));
             }
         }
-        return set;
     }
 
     public static HashSet<Integer> nonRepeating(int[] arr) {
@@ -62,12 +63,8 @@ public class Duplicate {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 1, 4, 5, 2, 3, 4, 1, 3, 4, 1, 3, 3, 1, 4 };
-        HashSet<Integer> set = new HashSet<>();
-        set = printDuplicates(arr);
-        System.out.println("all non repeating numbers : ");
-        for (int i : set) {
-            System.out.println(i);
-        }
+        int arr[] = {  4, 5, 2, 3, 4, 1, 3, 4, 1, 3, 3, 1, 4 };
+        System.out.println("Duplicate numbers are : ");
+        printDuplicates(arr);
     }
 }

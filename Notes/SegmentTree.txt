@@ -1,7 +1,13 @@
 Segment Tree - 
 
-A segment tree is a data structure used for efficiently performing range queries and updates on an array, such as finding sums, minimums, or maximums within a specified range. It divides the array into segments, allowing for quick access and modification of data within these segments.
+A segment tree is a data structure used for efficiently performing range
+ queries and updates on an array, such as finding sums, minimums, or
+  maximums within a specified range. It divides the array into segments,
+   allowing for quick access and modification of data within these segments.
 
 Tries -
 
-A Trie (pronounced "try") is a tree-like data structure used in Java for efficiently storing and searching strings, especially useful for prefix-based searches like autocomplete. Each node represents a character, and paths from the root to leaves represent words.
+A Trie (pronounced "try") is a tree-like data structure used in
+ Java for efficiently storing and searching strings, especially useful 
+ for prefix-based searches like autocomplete. Each node represents a character, 
+ and paths from the root to leaves represent words.

@@ -1,0 +1,11 @@
+Definition -
+ queue is a linear data structure that  follows First In, First Out (FIFO) principle. means the first element added to the queue will be removed first. 
+
+ Queue is an interface, and classes like LinkedList,ArrayDeque and PriorityQueue provide implementations for this interface.
+ 
+Components:
+Front: The end from which elements are removed.
+Rear: The end where elements are added.
+
+Syntax:
+Queue<Integer> queue = new LinkedList<>();
