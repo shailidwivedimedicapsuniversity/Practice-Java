@@ -1,14 +1,10 @@
 package ArraysAndArrayList;
 // print all repeting and non repeating numbers, remove duplicate numbers'
 // count distinct/unique elements
-
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Set;
 
-public class RemoveDuplicate6 {
+public class Duplicate {
     // public static HashSet<Integer> printDuplicates(int[] arr) {
     //     Arrays.sort(arr);
     //     HashSet<Integer> set = new HashSet();

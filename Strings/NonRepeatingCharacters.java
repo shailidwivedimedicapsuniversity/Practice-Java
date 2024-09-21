@@ -28,6 +28,7 @@ public class NonRepeatingCharacters {
         // }
         // System.out.println();
     }
+    
 
     public static void main(String[] args) {
         String str = "shaili dwivedi";
