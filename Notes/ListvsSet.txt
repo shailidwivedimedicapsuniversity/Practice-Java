@@ -1,0 +1,21 @@
+List vs Set
+Order:
+
+List: Preserves the insertion order of elements.
+Set: Does not guarantee any order (except for LinkedHashSet which preserves insertion order, and TreeSet which sorts elements).
+Duplicates:
+
+List: Allows duplicate elements.
+Set: Does not allow duplicates.
+Implementation:
+
+List: Common implementations include ArrayList, LinkedList.
+Set: Common implementations include HashSet, LinkedHashSet, TreeSet.
+Access Time:
+
+List: Elements can be accessed via index (e.g., list.get(index)).
+Set: No index-based access, elements must be iterated or searched.
+Usage:
+
+List: Best for ordered collections and scenarios where duplicates are allowed.
+Set: Best for unique collections where order doesn’t matter or must be sorted.

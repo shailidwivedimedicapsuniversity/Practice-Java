@@ -1,0 +1,38 @@
+ArrayList vs LinkedList:
+
+1.Definition:
+ArrayList uses a dynamic (resizable) array to store elements with an initial capacity of 10.
+LinkedList uses nodes, where each node stores data and a reference (link)
+to the next/previous node. The first node is called head, and the last node is called tail.
+
+II.Access Time: 
+ArrayList provides faster access for random elements (O(1) for index-based access)
+so it's efficient for searching .
+LinkedList has slower access (O(n)), as elements need to be traversed list,
+so it is not efficient for searching.
+
+III. Insertion/Deletion:
+ArrayList is slower (O(n)) for insertion and deletion, because elements need to be shifted.
+LinkedList is faster for frequent insertions/deletions (O(1) at head/tail).
+
+IV. Memory:
+ArrayList uses less memory compared to LinkedList.
+LinkedList uses more memory due to storing references (pointers) for the 
+next and/or previous nodes.
+
+V. Types:
+ArrayList can be one-dimensional, two-dimensional (by using ArrayList<ArrayList<>>), 
+or multidimensional.
+LinkedList can be of three types: singly, doubly, and circular linked lists.
+
+VI.Implementation
+ArrayList implements the List interface
+LinkedList implements both List and Deque interfaces, supporting more operations.
+
+
+4. ArrayList vs LinkedList
+1. Iterator vs List Iterator
+5. Stack vs Heap
+6. Stringbuilder vs Stringbuffer
+
+

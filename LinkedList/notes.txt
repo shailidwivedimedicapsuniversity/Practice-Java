@@ -1,5 +1,7 @@
 Def: 
-LinkedList is a linear data structure that dynamically stores a list of data elements, where each element is called a node. Each node contains data and a reference (link) to the next node. The first node is called head, and the last node is called  tail.
+LinkedList is a linear data structure that dynamically stores a list of data elements,
+ where each element is called a node. Each node contains data and a reference (link)
+to the next node. The first node is called head, and the last node is called  tail.
 
 Uses:
 LL are flexible in size. Non-contigous memory
