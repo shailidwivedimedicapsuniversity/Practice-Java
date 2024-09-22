@@ -1,0 +1,17 @@
+Stack vs. Heap
+
+1. Memory Allocation:
+Stack: Static memory allocation (e.g., method calls, local variables).
+Heap: Dynamic memory allocation (e.g., objects created with new).
+
+2..Access Speed:
+Stack: Faster access due to LIFO (Last In, First Out) structure.
+Heap: Slower access because of overhead in memory management.
+
+3.Lifetime:
+Stack: Data is automatically removed when the method call ends (temporary).
+Heap: Data remains in memory until explicitly deallocated or garbage collected.
+
+4.Size:
+Stack: Typically smaller and has a fixed size.
+Heap: Generally larger and can grow as needed.

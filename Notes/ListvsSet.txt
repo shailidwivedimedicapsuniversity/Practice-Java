@@ -1,21 +1,30 @@
 List vs Set
-Order:
 
-List: Preserves the insertion order of elements.
-Set: Does not guarantee any order (except for LinkedHashSet which preserves insertion order, and TreeSet which sorts elements).
+Access:
+List: Elements can be accessed via index (e.g., list.get(index)).
+Set: Elements cannot be accessed via index; elements must be iterated.
+
 Duplicates:
-
 List: Allows duplicate elements.
 Set: Does not allow duplicates.
+
+Null Handling:
+List: Allows multiple null values.
+Set: Allows at most one null value.
+
+Order:
+List: Preserves insertion order.
+Set: Does not preserve insertion order, except for LinkedHashSet (which does)
+and TreeSet (which sorts elements).
+
 Implementation:
-
-List: Common implementations include ArrayList, LinkedList.
+List: Common implementations include ArrayList, LinkedList, Vector, Stack.
 Set: Common implementations include HashSet, LinkedHashSet, TreeSet.
-Access Time:
 
-List: Elements can be accessed via index (e.g., list.get(index)).
-Set: No index-based access, elements must be iterated or searched.
 Usage:
+List: Best for ordered collections and when duplicates are allowed.
+Set: Best for unique collections where order doesn’t matter or where elements must be sorted.
 
-List: Best for ordered collections and scenarios where duplicates are allowed.
-Set: Best for unique collections where order doesn’t matter or must be sorted.
+Iterator:
+in List, Iterator and ListIterator can be used for traverse list.
+in Set, only Iterator can be used since sets do not support indexing or bidirectional traversal.

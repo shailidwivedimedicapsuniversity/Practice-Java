@@ -1,0 +1,25 @@
+Iterator and ListIterator:
+
+Applicable :
+Iterator: can be used with any Collection Obj.(like List, Set, Stack, Deque.).
+ListIterator: can be used with only List implemented classes like LinkedList, ArrayList.
+
+Traversal Direction:
+Iterator: can traverse elements in only forward Direction.
+ListIterator: can traverse elements in both forward and backward Directions.
+
+Methods:
+Iterator: provides few basic methods (hasNext(), next(), remove()).
+ListIterator: provides more methods like hasNext(), next(), remove() ,previous(), hasPrevious(), add(), set(),
+
+Index Access:
+Iterator: No access to element indexes.
+ListIterator: Can get the index of elements.
+
+Starting Point:
+Iterator: Starts from the beginning.
+ListIterator: Can start from any position in the list.
+
+Element Modification:
+Iterator: Can remove elements.
+ListIterator: Can remove, add, and modify elements.

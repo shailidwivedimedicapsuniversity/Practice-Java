@@ -30,9 +30,5 @@ ArrayList implements the List interface
 LinkedList implements both List and Deque interfaces, supporting more operations.
 
 
-4. ArrayList vs LinkedList
-1. Iterator vs List Iterator
-5. Stack vs Heap
-6. Stringbuilder vs Stringbuffer
 
 
