@@ -1,0 +1,29 @@
+Array vs. ArrayList in Java
+
+Size:
+Array: Fixed size so you must have to define the size at the time of creation, 
+and after that it cannot grow or shrink.
+ArrayList: Dynamic size(Initail Capicity 10). It can grow and shrink automatically when
+elements are added or removed.
+
+Data Type:
+Array: Can store both primitive types (e.g., int, char) and objects (e.g., String, Integer).
+ArrayList: Can only store objects, not primitive types (e.g., you must use Integer instead of int).
+
+Performance:
+Array: Better performance due to its fixed size and direct memory allocation.
+ArrayList: Slower compared to arrays, because resizing array when additions.
+
+Memory:
+Array: Takes less memory since it directly stores elements.
+ArrayList: Requires more memory because it stores elements as objects.
+
+Flexibility:
+Array: Less flexible because the size is fixed and cannot be changed after creation.
+ArrayList: More flexible as it can automatically resize as elements are added or removed.
+
+Methods:
+Array: Provides less built in methods like getting and setting elements.
+ArrayList: Provides more built in methods, like add(), remove(), contains(), and
+other list-specific methods.
+
