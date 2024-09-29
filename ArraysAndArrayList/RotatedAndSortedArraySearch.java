@@ -1,8 +1,6 @@
 // Search in rotated and sorted array
 package ArraysAndArrayList;
 
-import ArraysAndArrayList.LinearSearch;
-
 public class RotatedAndSortedArraySearch {
     public static int searchInRotatedSortedArray(int arr[], int target) {
         // Binary Search Optimise Approach TC = O(logn)
@@ -43,6 +41,5 @@ public class RotatedAndSortedArraySearch {
         // bruteforce: we can simply use linear search for searching TC = O(n)
         System.out.println(LinearSearch.linearSearch(nums, target));
         System.out.println(searchInRotatedSortedArray(nums, target));
-
     }
 }

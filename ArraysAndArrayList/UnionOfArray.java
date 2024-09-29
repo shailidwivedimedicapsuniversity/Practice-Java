@@ -12,6 +12,7 @@ public class UnionOfArray {
         // it is the set containing distinct elements from both arrays. If there are
         // repetitions, then only one element occurrence should be there in the union.
         // Time O(n) Space O(n)
+
         HashSet<Integer> set = new HashSet<>();
         for (int i : arr1) {
             set.add(i);

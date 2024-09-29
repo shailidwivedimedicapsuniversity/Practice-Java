@@ -12,7 +12,7 @@ public class Sort012 {
         Collections.sort(arr);
     }
 
-    public static void sort012Better(ArrayList<Integer> arr) {
+    public static void sort012(ArrayList<Integer> arr) {
         // TC = O(n) SC = O(1)
         int n = arr.size();
         int c0 = 0, c1 = 0, c2 = 0;
@@ -55,7 +55,7 @@ public class Sort012 {
         }
         printList(list);
         // sort012BruteForce(list);
-        sort012Better(list);
+        sort012(list);
         printList(list);
     }
 }
