@@ -38,7 +38,6 @@ public class Anagrams {
             if (!map.containsKey(ch)) {
                 return false;
             }
-
             // Decrease the frequency of char by one
             map.put(ch, map.get(ch) - 1);
             if (map.get(ch) == 0) {

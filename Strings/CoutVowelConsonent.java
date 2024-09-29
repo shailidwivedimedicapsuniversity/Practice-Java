@@ -3,6 +3,8 @@ package Strings;
 public class CoutVowelConsonent {
     public static void main(String args[]){
         // TC = n SC = 1
+        // String is only having vowel , consonent and space
+        
         String str = "Shaili Dwivedi";
         str = str.toLowerCase();
         int countV = 0;

@@ -2,7 +2,8 @@ package ArraysAndArrayList;
 
 public class MoveZeros {
 
-    // Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.   
+    // Given an integer array nums, move all 0's to the end of it while maintaining the 
+    //relative order of the non-zero elements.   
      public static void moveZeros(int nums[]) {
         
         int idx = 0;
@@ -22,7 +23,7 @@ public class MoveZeros {
 
         //Step3 : Print the modified array
         for (int i : nums) {
-            System.out.print(i + "    ");
+            System.out.print(i + "  ");
         }
     }
 

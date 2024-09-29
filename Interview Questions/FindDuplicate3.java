@@ -1,7 +1,6 @@
 // There is only one repeated number in array, return this repeated number.
 // is array contains duplicates , using hashmap 
 
-
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -21,7 +20,7 @@ public class FindDuplicate3 {
         // using sorting O(n)
         Arrays.sort(nums);
 
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length - 1; i++) {
             if (nums[i] == nums[i + 1]) {
                 return nums[i];
             }
@@ -63,7 +62,6 @@ public class FindDuplicate3 {
                 return true;
             }
         }
-
         return false;
     }
 

@@ -1,5 +1,8 @@
 // Not clear
-// Given an array of tower heights arr[] and a positive integer K, modify each tower's height by either increasing or decreasing it by K. The goal is to minimize the difference between the tallest and shortest towers after the modifications, ensuring no tower has a negative height.
+// Given an array of tower heights arr[] and a positive integer K, modify each tower's 
+//height by either increasing or decreasing it by K. The goal is to minimize the 
+//difference between the tallest and shortest towers after the modifications, ensuring
+// no tower has a negative height.
 package ArraysAndArrayList;
 
 import java.util.Arrays;

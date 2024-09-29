@@ -2,10 +2,8 @@ public class Fibonacci2 {
 
     static int nthFibonacci(int n) {
         // print nth fibonacci number
-
         int a = 0; // zero fib number
         int b = 1; // first fib number
-
         // base cases
         if (n == 0) {
             return a;
@@ -19,13 +17,12 @@ public class Fibonacci2 {
             a = b;
             b = c;
         }
-
         return b;
     }
+    
 
     static long[] firstNFibonacciNum(int n) {
         // Program to Print Fibonacci Series till n in Java
-
         // Given a number N, find the first N Fibonacci numbers. The first two number of
         // the series are 1 and 1.
 

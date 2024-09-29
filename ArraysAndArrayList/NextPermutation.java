@@ -19,7 +19,7 @@ public class NextPermutation {
             return;
         }
         // 3. find closest greater ele from bp
-        // nums[i]>nums[idx] but stay close to index
+        // nums[i]>nums[bp] but stay close to index
         for (int i = n - 1; i > bp; i--) {
             // till n-1 sub array is in desc order
             if (nums[i] > nums[bp]) {

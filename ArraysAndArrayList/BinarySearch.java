@@ -16,13 +16,11 @@ public class BinarySearch {
             }else if(arr[mid]>key){
                 ei = mid-1;
             }
-            si++;
-            ei--;
         }
         return -1;
     }
     public static void main(String[] args) {
-        int nums[] = {2,4,5,7,9};
+        int nums[] = {2, 4, 12, 56, 3, 5, 7, 9}; // array must be sorted
         System.out.println(binarySearch(nums, 5));
     }
 }

@@ -14,9 +14,9 @@ public class CountVowel {
         int count = 0;
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-            if (ch == ' ') {
-                continue;
-            }
+            // if (ch == ' ') {
+            //     continue;
+            // }
             if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
                 count++;
             }
@@ -35,7 +35,6 @@ public class CountVowel {
 
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-
             if (map.containsKey(ch)) {
                 // If it is a vowel, increase its count in the map
                 map.put(ch, map.get(ch) + 1);

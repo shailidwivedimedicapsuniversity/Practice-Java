@@ -123,7 +123,7 @@ public class MaxMin {
     public static int kthLargest(int[] nums, int k) {
         Arrays.sort(nums);
         // in place of this , we can write any sorting algorithm then sort the array
-        return nums[nums.length - k];
+        return nums[nums.length - k]; // n-k
     }
 
     public static int kthSmallest(int[] arr, int k) {

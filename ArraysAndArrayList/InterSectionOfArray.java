@@ -14,6 +14,7 @@ public class InterSectionOfArray {
             for (int j = 0; j < m; j++) {
                 if (a[i] == b[j]) {
                     list.add(a[i]);
+                    break;
                 }
             }
         }
@@ -49,10 +50,10 @@ public class InterSectionOfArray {
     
 
     public static void main(String[] args) {
-        int arr1[] = { 1, 3, 4, 5, 7 };
-        int arr2[] = { 2, 3, 5, 6 };
-        System.out.println(intersection(arr1, arr2, 5, 4));
-        System.out.println(intersectionOfArrays(arr1, arr2, 5, 4));
+        int arr1[] = {1, 2, 2, 3, 4 };
+        int arr2[] = {2, 2, 4, 6, 7, 8};
+        System.out.println(intersection(arr1, arr2, 5, 4)); // 2 4
+        System.out.println(intersectionOfArrays(arr1, arr2, 5, 4)); // 2 2 4
     }
 
 }

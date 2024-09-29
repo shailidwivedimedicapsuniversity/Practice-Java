@@ -14,7 +14,7 @@ public class ChocolateDistribution {
         if (list.size() == 0 || m == 0) {
             return 0;
         }
-        if(n-1<m){
+        if(n<m){
             return -1;
         }
         // Sort the chocolate packets to bring similar-sized packets closer together.

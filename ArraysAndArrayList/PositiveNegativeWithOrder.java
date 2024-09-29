@@ -29,7 +29,6 @@ public class PositiveNegativeWithOrder {
         for (int num : positives) {
             arr[i++] = num;
         }
-
         return arr;
     }
 

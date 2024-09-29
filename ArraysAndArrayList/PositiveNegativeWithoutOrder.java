@@ -52,7 +52,7 @@ public class PositiveNegativeWithoutOrder {
         int temp = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < 0) {
-                // Swap arr[i] with arr[j] to move the negative number to the correct position
+            // Swap arr[i] with arr[j] to move the negative number to the correct position
                 temp = arr[i];
                 arr[i] = arr[j];
                 arr[j] = temp;

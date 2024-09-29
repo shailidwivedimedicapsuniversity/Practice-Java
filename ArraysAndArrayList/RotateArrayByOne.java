@@ -18,7 +18,7 @@ public class RotateArrayByOne {
     }
 
     public static void rotateOptimise(int arr[], int n) {
-        // without using any space
+        // conatant space
         // TC=O(n) SC = O(1)
         int last = arr[n - 1];
         for (int i = n - 2; i >= 0; i--) {
