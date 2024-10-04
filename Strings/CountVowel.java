@@ -1,9 +1,7 @@
 // count vowels in a string
 package Strings;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class CountVowel {
     public static int countVowel(String str) {
@@ -13,10 +11,8 @@ public class CountVowel {
         str = str.toLowerCase();
         int count = 0;
         for (int i = 0; i < str.length(); i++) {
+            // count total numbers of vowels
             char ch = str.charAt(i);
-            // if (ch == ' ') {
-            //     continue;
-            // }
             if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
                 count++;
             }

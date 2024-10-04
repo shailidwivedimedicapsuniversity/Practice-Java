@@ -1,6 +1,6 @@
 // union and intersection of 2 arrays 
 
-package HashSet;
+package HashSets;
 
 import java.util.ArrayList;
 import java.util.HashSet;

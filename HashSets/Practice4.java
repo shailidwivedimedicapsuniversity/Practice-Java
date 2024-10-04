@@ -1,6 +1,6 @@
 // Count distinct element
 // remove duplicate elements 
-package HashSet;
+package HashSets;
 
 import java.util.ArrayList;
 import java.util.HashMap;

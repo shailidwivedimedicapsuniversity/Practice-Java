@@ -1,8 +1,9 @@
 // HashSet : no duplicate, unordered, null allowed
 // HashSet internally  implemented in form of  Hashmap
 // basic  operation : add, contains , remove, size , clear ,clone, isEmpty
-
-package HashSet;
+//A HashSet is a data structure that stores unique elements, 
+//allowing fast access and prevent duplicates.
+package HashSets;
 
 import java.util.HashSet;
 

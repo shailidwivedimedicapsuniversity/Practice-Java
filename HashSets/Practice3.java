@@ -4,7 +4,7 @@
 // TreeSet : same as hashset but sorted in asc order and null values are not allowed
 // Treeset : time complexity - logn
 // Treeset internally treemap ke form me implement hote hai
-package HashSet;
+package HashSets;
 
 import java.util.LinkedHashSet;
 import java.util.TreeSet;

@@ -1,7 +1,7 @@
 // Iteration on HashSet (traverse)
 //  1. using iterator 2. using for each loop
 
-package HashSet;
+package HashSets;
 
 import java.util.HashSet;
 import java.util.Iterator;

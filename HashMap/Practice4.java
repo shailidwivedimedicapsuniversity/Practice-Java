@@ -16,7 +16,7 @@ public class Practice4 {
             map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
 
-        //2. traverse on t , if character is present in hashmap then decrease it's frequency
+    //2. traverse on t , if character is present in hashmap then decrease it's frequency
         for (int i = 0; i < t.length(); i++) {
             char ch = t.charAt(i);
             if (map.get(ch) != null) {

@@ -10,7 +10,8 @@ ListIterator: can traverse elements in both forward and backward Directions.
 
 Methods:
 Iterator: provides few basic methods (hasNext(), next(), remove()).
-ListIterator: provides more methods like hasNext(), next(), remove() ,previous(), hasPrevious(), add(), set(),
+ListIterator: provides more methods like hasNext(), next(), remove() ,previous(),
+hasPrevious(), add(), set()
 
 Index Access:
 Iterator: No access to element indexes.

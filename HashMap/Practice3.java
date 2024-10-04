@@ -1,4 +1,5 @@
-//find Majority elements : find all eles which appears more than n/3 times where n = size of arrayi
+//find Majority elements : find all eles which appears more than n/3 times where
+// n = size of arrayi
 import java.util.HashMap;
 import java.util.Set;
 

@@ -1,5 +1,5 @@
-
-// here all valid strings are given, having matching opening '(' and closing ')' brackets, and no empty parentheses like '()'.
+// here all valid strings are given, having matching opening '(' and closing ')' 
+//brackets, and no empty parentheses like '()'.
 import java.util.Stack;
 
 public class DuplicateParenthesis {

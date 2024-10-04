@@ -1,4 +1,6 @@
-// Merge Sort Algorithm - Merge sort is a Divide and Conquer based Algorithm. It divides the input array into two-parts, until the size of the input array is not ‘1’. In the return part, it will merge two sorted arrays a return a whole merged sorted array.
+// Merge Sort Algorithm - Merge sort is a Divide and Conquer based Algorithm. It divides
+// the input array into two-parts, until the size of the input array is not ‘1’.
+// In the return part, it will merge two sorted arrays a return a whole merged sorted array.
 // TC= O(nlogn) SC=O(n)
 // Quick sort is better than merge sort because in merge sort we use extra array
 package SortingAlgorithms;
